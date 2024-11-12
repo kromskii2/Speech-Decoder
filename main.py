@@ -4,7 +4,7 @@ from aiogram.utils import executor
 import speech_recognition as sr
 from pydub import AudioSegment
 
-API_TOKEN = '7812128361:AAHtv_q-sGMKzJGVrEn4LAXpdieZPmlxfwc'
+API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
