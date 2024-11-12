@@ -19,6 +19,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pylint
+    - name: Verify installed packages
+      run: |
+        pip list
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
